@@ -1,0 +1,83 @@
+p{
+  margin: 0;
+  padding: 0;
+
+}
+.content{
+  padding: 0;
+  margin: 0 2.5%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: fixed;
+  top:10px;
+  
+}
+.content ol{
+  padding:0;
+  margin: 10px 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  width: 200px;
+  height: 46px;
+  text-align: center;
+  overflow: hidden;
+}
+.content .firstColumn:hover{
+  height : 184px;
+}
+.content .secondColumn:hover{
+  height : 140px;
+}
+.content .thirdColumn:hover{
+  height : 230px;
+}
+.content .fourthColumn:hover{
+  height : 92px;
+}
+.content ol li{
+  padding: 10px 5px;
+  margin: 2px 0;
+  list-style-type: none;
+  border: 2px solid white;
+  background-image: linear-gradient(80deg, aqua, rgb(222, 4, 171), aqua );
+  animation:headButton 10s linear infinite;
+  background-size: 400%;
+}
+@keyframes headButton{
+  0%{background-position:0%;}
+  100%{background-position:400%;}
+}
+.content ol li:hover{
+  color: black;
+  cursor: pointer;
+}
+.headName{
+  text-align: center;
+  font-style: serif;
+  font-size: 40px;
+  background-image: linear-gradient(60deg, rgb(222, 4, 171), aqua, rgb(222, 4, 171) );
+  background-size: 400%;
+  animation:headButton 10S linear infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  width: auto;
+  margin: 300px 2% 0 2% ;
+}
+.register{
+  display:flex;
+  justify-content:center;
+  margin: 2%;
+}
+.register p{
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+  margin: 2px 0;
+}
+.register .rButton{
+  width:100px;
+  margin: 10px 0;
+}
